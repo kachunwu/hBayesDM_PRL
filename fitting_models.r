@@ -1,7 +1,7 @@
 library(hBayesDM)
 
-setwd("")
-dataPath = ""
+setwd("working folder")
+dataPath = "data_path"
 
 # Fit Model
 model0 = prl_wsls_multipleB(data=dataPath, niter=5000, nwarmup=1000, nchain=4, ncore=16, modelRegressor=TRUE, inc_postpred = TRUE)
