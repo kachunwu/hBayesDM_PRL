@@ -1,7 +1,7 @@
 library(hBayesDM)
 
-setwd("E:/OneDrive - The Chinese University of Hong Kong/MPhil/R")
-dataPath = "E:/OneDrive - The Chinese University of Hong Kong/MPhil/R/rData.txt"
+setwd("")
+dataPath = ""
 
 # Fit Model
 model0 = prl_wsls_multipleB(data=dataPath, niter=5000, nwarmup=1000, nchain=4, ncore=16, modelRegressor=TRUE, inc_postpred = TRUE)
