@@ -1,5 +1,5 @@
 # hBayesDM_PRL
-This is the R code I used to use Hierarchical Bayesian Modelling (hBayesDM; Ahn et al., 2017) to fit different versions of reinforcement learning models and compared their fit index to determine the model used to estimate the parameters for each participants. The estimates were used as the regressors of the linear model of EEG signals.
+This is the R code I used to use Hierarchical Bayesian Modelling (hBayesDM; Ahn et al., 2017) to fit data of a Probabilistic Reverse Learning (PRL) Task to different versions of reinforcement learning models. Fit indexs are compared to determine a winning model, which is used to estimate the parameters of each participants. The estimates were used as the regressors of the linear model of EEG signals.
 
 ## Models
 1. Win-Stay-Loss-Switch Model (prl_wsls_multipleB)
